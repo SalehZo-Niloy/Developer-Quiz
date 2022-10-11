@@ -1,0 +1,14 @@
+.banner {
+    background-image: url('../../images/quiz.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dark-bg:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

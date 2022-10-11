@@ -22,9 +22,9 @@ const NavBar = () => {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Link to='/'><span className='text-rose-600 text-lg hover:text-rose-900'>Topics</span></Link>
-                <Link to='/'><span className='text-rose-600 text-lg hover:text-rose-900'>Statistics</span></Link>
-                <Link to='/'><span className='text-rose-600 text-lg hover:text-rose-900'>Blog</span></Link>
-                <Link to='/'><span className='text-rose-600 text-lg hover:text-rose-900'>About</span></Link>
+                <Link to='/statistics'><span className='text-rose-600 text-lg hover:text-rose-900'>Statistics</span></Link>
+                <Link to='/blog'><span className='text-rose-600 text-lg hover:text-rose-900'>Blog</span></Link>
+                <Link to='/about'><span className='text-rose-600 text-lg hover:text-rose-900'>About</span></Link>
             </Navbar.Collapse>
         </Navbar>
     );
