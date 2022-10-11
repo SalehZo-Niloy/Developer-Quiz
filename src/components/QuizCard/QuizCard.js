@@ -1,4 +1,4 @@
-import { Button, Card } from 'flowbite-react';
+import { Card } from 'flowbite-react';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ const QuizCard = ({ quiz }) => {
                     Total Quiz Questions: {total}
                 </p>
                 <div className='flex justify-end'>
-                    <Button onClick={() => loadQuiz(id)}>Take Quiz</Button>
+                    <button className='bg-rose-600 hover:bg-rose-700 w-32 py-2 text-lg font-semibold text-white rounded-lg' onClick={() => loadQuiz(id)}>Take Quiz</button>
                 </div>
             </Card >
         </div >

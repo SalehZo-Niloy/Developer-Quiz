@@ -15,16 +15,16 @@ const NavBar = () => {
                     className="mr-0.5 mt-1 h-9 md:h-14"
                     alt=""
                 />
-                <span className="self-center whitespace-nowrap text-xl md:text-3xl font-semibold text-rose-600 dark:text-white">
+                <span className="self-center whitespace-nowrap text-2xl md:text-3xl font-bold text-rose-600 dark:text-white">
                     Developer's Quiz
                 </span>
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
-                <Link to='/'><span className='text-rose-600 text-lg hover:text-rose-900'>Topics</span></Link>
-                <Link to='/statistics'><span className='text-rose-600 text-lg hover:text-rose-900'>Statistics</span></Link>
-                <Link to='/blog'><span className='text-rose-600 text-lg hover:text-rose-900'>Blog</span></Link>
-                <Link to='/about'><span className='text-rose-600 text-lg hover:text-rose-900'>About</span></Link>
+                <Link to='/'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Topics</span></Link>
+                <Link to='/statistics'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Statistics</span></Link>
+                <Link to='/blog'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Blog</span></Link>
+                <Link to='/about'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>About</span></Link>
             </Navbar.Collapse>
         </Navbar>
     );

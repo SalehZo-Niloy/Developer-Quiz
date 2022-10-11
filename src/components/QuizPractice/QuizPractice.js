@@ -9,7 +9,7 @@ const QuizPractice = () => {
 
     return (
         <div className='bg-zinc-400'>
-            <h2 className='text-2xl font-bold text-rose-600 py-4'>Take Quiz of {name}</h2>
+            <h2 className='text-2xl font-semibold md:font-bold text-rose-600 py-4'>Take Quiz of {name}</h2>
             <div className='pb-4'>
                 {
                     questions.map(ques => <Question key={ques.id} ques={ques}></Question>)
