@@ -1,9 +1,13 @@
 import { Button, Card } from 'flowbite-react';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const QuizCard = ({ quiz }) => {
     const { id, name, logo, total } = quiz;
+    const navigate = useNavigate();
+    const loadQuiz = (id) => {
+        navigate(`/topic/${id}`);
+    };
     return (
         <div className="max-w-sm">
             <Card>
@@ -15,10 +19,10 @@ const QuizCard = ({ quiz }) => {
                     Total Quiz Questions: {total}
                 </p>
                 <div className='flex justify-end'>
-                    <Link><Button>Take Quiz</Button></Link>
+                    <Button onClick={() => loadQuiz(id)}>Take Quiz</Button>
                 </div>
-            </Card>
-        </div>
+            </Card >
+        </div >
     );
 };
 
