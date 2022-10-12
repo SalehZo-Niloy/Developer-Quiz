@@ -1,6 +1,6 @@
 import { Navbar } from 'flowbite-react';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../images/dqlogo.png'
 
 const NavBar = () => {
@@ -21,12 +21,12 @@ const NavBar = () => {
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
-                <Link to='/'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Topics</span></Link>
-                <Link to='/statistics'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Statistics</span></Link>
-                <Link to='/blog'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Blog</span></Link>
-                <Link to='/about'><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>About</span></Link>
+                <NavLink to='/home' className={({ isActive }) => isActive ? 'bg-zinc-300 px-4 pb-1 rounded-lg' : undefined}><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Topics</span></NavLink>
+                <NavLink to='/statistics' className={({ isActive }) => isActive ? 'bg-zinc-300 px-4 pb-1 rounded-lg' : undefined}><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Statistics</span></NavLink>
+                <NavLink to='/blog' className={({ isActive }) => isActive ? 'bg-zinc-300 px-4 pb-1 rounded-lg' : undefined}><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>Blog</span></NavLink>
+                <NavLink to='/about' className={({ isActive }) => isActive ? 'bg-zinc-300 px-4 pb-1 rounded-lg' : undefined}><span className='text-rose-600 text-xl font-semibold hover:text-rose-900'>About</span></NavLink>
             </Navbar.Collapse>
-        </Navbar>
+        </Navbar >
     );
 };
 
