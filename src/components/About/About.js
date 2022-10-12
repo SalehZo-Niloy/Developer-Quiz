@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <footer>
                 <hr className='border-2 border-rose-600' />
-                <h4 className='font-semibold mt-5'>Copyright © 2022. Saleh Zohur Niloy. All Rights Reserved.</h4>
+                <h4 className='font-semibold my-5'>Copyright © 2022. Saleh Zohur Niloy. All Rights Reserved.</h4>
             </footer>
         </div>
     );
