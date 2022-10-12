@@ -11,7 +11,7 @@ const QuizCard = ({ quiz }) => {
     return (
         <div className="max-w-sm">
             <Card>
-                <img className='bg-zinc-300 w-full rounded-2xl' src={logo} alt="" />
+                <img className='bg-zinc-400 w-full rounded-2xl' src={logo} alt="" />
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {name}
                 </h5>
