@@ -3,7 +3,7 @@
 ## Project: `Developer's Quiz`
 
 ### Live Site Link:
-[https://developer-s-quiz-460359s.netlify.app/about](https://developer-s-quiz-460359s.netlify.app/about)
+[https://developer-s-quiz-460359s.netlify.app](https://developer-s-quiz-460359s.netlify.app)
 
 ### `What is done so far in this Project:`
 - Topics
